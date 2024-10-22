@@ -1,0 +1,72 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app-container {
+  background-color: rgb(38, 236, 177);
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 350px;
+  padding: 20px;
+  text-align: center;
+}
+
+header img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-container input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.search-container button {
+  width: 25%;
+  background-color: #141718;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.weather-display {
+  margin-bottom: 20px;
+}
+
+.temperature {
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.temperature span {
+  margin-left: 10px;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forecast-day {
+  text-align: center;
+}
